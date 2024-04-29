@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Weatherly</title>
+</head>
+
+<body>
+  <div class="outer_container">
+
+    <div class="header_container">
+      <img src="./burger.png" class="burger" alt="">
+      <h4 class="header_weatherly_p_tag">Weatherly</h4>
+      <img src="./forecastLogo.png" class="header_forecast_logo" alt="">
+    </div>
+
+    <div class="left_container dark">
+      <img src="./forecastLogo.png" class="website_logo" alt="">
+      <div class="website_name_container">
+        <p class="website_name left_p_tags">Weatherly</p>
+        <img src="./clouds.png" class="website_name_under_logo" srcset="">
+      </div>
+      <div class="search_cities_container">
+        <p class="search_cities_p_tag left_container_p_tag">Cities</p>
+        <img src="./citiesMenu.png" class="cities_menu_logo left_container_logos" srcset="">
+      </div>
+      <div class="website_settings_container">
+        <p class="website_settings_p_tag left_container_p_tag">Settings</p>
+        <img src="./settingsLogo.png" class="settings_logo left_container_logos" alt="" srcset="">
+
+
+      </div>
+      <div class="dark_light_mode_container">
+        <img src="./darkMode.png" class="modes mode_dark" alt="">
+        <img src="./lightMode.png" class="modes mode_light" alt="" srcset="">
+        <div class="circle_container" id="circle">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="middle_container">
+      <div class="middle_top_container">
+        <div class="middle_top_left_container">
+          <div class="middle_top_left_upper_contaner">
+            <p class="main_city_name">Delhi</p>
+            <p class="main_city_below_desc">City looks hot</p>
+          </div>
+          <p class="main_temperature">30°C</p>
+        </div>
+        <img src="./sunBig.png" class="main_weather_logo" srcset="">
+      </div>
+      <div class="middle_middle_container">
+        <div class="middle_middle_vertical_container">
+          <p class="middle_middle_container_time_p_tag middle_p_tag">6:30 AM</p>
+          <img src="./cloudyAndSunny.png" class="middle_middle_weather_logo" alt="" srcset="">
+          <p class="middle_middle_weather_forecast_p_tag middle_p_tag">32°C</p>
+        </div>
+        <div class="middle_middle_vertical_container">
+          <p class="middle_middle_container_time_p_tag middle_p_tag">6:30 AM</p>
+          <img src="./cloudyAndSunny.png" class="middle_middle_weather_logo" alt="" srcset="">
+          <p class="middle_middle_weather_forecast_p_tag middle_p_tag">32°C</p>
+        </div>
+        <div class="middle_middle_vertical_container">
+          <p class="middle_middle_container_time_p_tag middle_p_tag">6:30 AM</p>
+          <img src="./cloudyAndSunny.png" class="middle_middle_weather_logo" alt="" srcset="">
+          <p class="middle_middle_weather_forecast_p_tag middle_p_tag">32°C</p>
+        </div>
+        <div class="middle_middle_vertical_container">
+          <p class="middle_middle_container_time_p_tag middle_p_tag">6:30 AM</p>
+          <img src="./cloudyAndSunny.png" class="middle_middle_weather_logo" alt="" srcset="">
+          <p class="middle_middle_weather_forecast_p_tag middle_p_tag">32°C</p>
+        </div>
+        <div class="middle_middle_vertical_container">
+          <p class="middle_middle_container_time_p_tag middle_p_tag">6:30 AM</p>
+          <img src="./cloudyAndSunny.png" class="middle_middle_weather_logo" alt="" srcset="">
+          <p class="middle_middle_weather_forecast_p_tag middle_p_tag">32°C</p>
+        </div>
+        <div class="middle_middle_vertical_container middle_middle_bottom_container">
+          <p class="middle_middle_container_time_p_tag middle_p_tag">6:30 AM</p>
+          <img src="./cloudyAndSunny.png" class="middle_middle_weather_logo" alt="" srcset="">
+          <p class="middle_middle_weather_forecast_p_tag middle_p_tag">32°C</p>
+        </div>
+      </div>
+      <div class="middle_bottom_container">
+        <div class="middle_bottom_top_contaier">
+          <p class="middle_bottom_top_container_heading">
+            Condition of Atmosphere
+          </p>
+        </div>
+        <div class="middle_bottom_middle_container">
+          <div class="middle_bottom_middle_left_container">
+            <img src="./waterLogo.png" class="humidity_logo middle_bottom_container_logo">
+            <p class="rain_chance_tag middle_bottom_container_p_tags">Humidity</p>
+            <p class="rain_chance_number_p_tag middle_bottom_container_p_tags">32%</p>
+          </div>
+          <div class="middle_bottom_middle_middle_container">
+            <img src="./wind.png" class="wind_speed_logo middle_bottom_container_logo">
+            <p class="wind_speed_tag middle_bottom_container_p_tags">Wind speed</p>
+            <p class="wind_speed_number_p_tag middle_bottom_container_p_tags">02KM/H</p>
+          </div>
+          <div class="middle_bottom_middle_right_container">
+            <img src="./uv.png" class="max_temperature_logo middle_bottom_container_logo">
+            <p class="uv_tag middle_bottom_container_p_tags">Max Temp.</p>
+            <p class="uv_index_number_p_tag middle_bottom_container_p_tags">02</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- right container for tablet view -->
+      <div class="right_container day_forecast_container">
+        <div class="right_inner_container forecast_inner_container">
+          <div class="right_inner_inner_top_container">
+            <p class="forecast_p_tag">7-dAY Forecast</p>
+          </div>
+          <div class="right_inner_inner_container forecast_sub_boxes">
+            <p class="days_name">Sunday</p>
+            <img src="./clouds.png" class="days_weather_logo" alt="" srcset="">
+            <p class="weather_report_p_tag">Rainy</p>
+            <p class="date_p_tag">13/17</p>
+          </div>
+          <div class="right_inner_inner_container forecast_sub_boxes">
+            <p class="days_name">Sunday</p>
+            <img src="./clouds.png" class="days_weather_logo" alt="" srcset="">
+            <p class="weather_report_p_tag">Rainy</p>
+            <p class="date_p_tag">13/17</p>
+          </div>
+          <div class="right_inner_inner_container forecast_sub_boxes">
+            <p class="days_name">Sunday</p>
+            <img src="./clouds.png" class="days_weather_logo" alt="" srcset="">
+            <p class="weather_report_p_tag">Rainy</p>
+            <p class="date_p_tag">13/17</p>
+          </div>
+          <div class="right_inner_inner_container forecast_sub_boxes">
+            <p class="days_name">Sunday</p>
+            <img src="./clouds.png" class="days_weather_logo" alt="" srcset="">
+            <p class="weather_report_p_tag">Rainy</p>
+            <p class="date_p_tag">13/17</p>
+          </div>
+          <div class="right_inner_inner_container right_inner_inner_bottom_container forecast_sub_boxes">
+            <p class="days_name">Sunday</p>
+            <img src="./clouds.png" class="days_weather_logo" alt="" srcset="">
+            <p class="weather_report_p_tag">Rainy</p>
+            <p class="date_p_tag">13/17</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="right_container">
+      <div class="right_inner_container">
+        <div class="right_inner_inner_top_container">
+          <p class="forecast_p_tag">5-DAY Forecast</p>
+        </div>
+        <div class="right_inner_inner_container">
+          <p class="days_name">Sunday</p>
+          <img src="./clouds.png" class="days_weather_logo" alt="" srcset="">
+          <p class="weather_report_p_tag">Rainy</p>
+          <p class="date_p_tag">13/17</p>
+        </div>
+        <div class="right_inner_inner_container">
+          <p class="days_name">Sunday</p>
+          <img src="./clouds.png" class="days_weather_logo" alt="" srcset="">
+          <p class="weather_report_p_tag">Rainy</p>
+          <p class="date_p_tag">13/17</p>
+        </div>
+        <div class="right_inner_inner_container">
+          <p class="days_name">Sunday</p>
+          <img src="./clouds.png" class="days_weather_logo" alt="" srcset="">
+          <p class="weather_report_p_tag">Rainy</p>
+          <p class="date_p_tag">13/17</p>
+        </div>
+        <div class="right_inner_inner_container">
+          <p class="days_name">Sunday</p>
+          <img src="./clouds.png" class="days_weather_logo" alt="" srcset="">
+          <p class="weather_report_p_tag">Rainy</p>
+          <p class="date_p_tag">13/17</p>
+        </div>
+        <div class="right_inner_inner_container right_inner_inner_bottom_container">
+          <p class="days_name">Sunday</p>
+          <img src="./clouds.png" class="days_weather_logo" alt="" srcset="">
+          <p class="weather_report_p_tag">Rainy</p>
+          <p class="date_p_tag">13/17</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cities search list -->
+  <div class="cities_search_list_outer_container">
+
+    <div class="cities_search_list">
+      <img src="./crossIcon.png" alt="crossIcon" class="crossIcon" srcset="">
+      <p class="cities_search_list_p_tag name_of_city_p_tag">Name of the City : </p>
+      <div class="cities_input_container">
+        <input type="text" class="city_input">
+        <button class="search_button"> Search 🔍</button>
+      </div>
+      <p class="cities_list_p_tag">List of Cities : </p>
+      <p class="city_not_found_p_tag">CITY NOT FOUND!</p>
+      <div class="list_of_cities_container">
+        <div class="city_box">
+          <p class="box_city_name">Jaipur</p>
+          <button class="see_weather">See weather</button>
+        </div>
+      </div>
+      <div class="loading_container_of_city_list">
+        <div class="outer_circle_of_loading">
+          <div class="inner_circle_of_loading">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="big_loading_container_of_city_list">
+    <div class="outer_circle_of_loading">
+      <div class="inner_circle_of_loading">
+
+      </div>
+    </div>
+  </div>
+  <script src="./header.js"></script>
+  <script src="./modes.js"></script>
+  <script src="./settings.js"></script>
+  <script src="./citiesHandler.js"></script>
+  <script src="weather.js"></script>
+</body>
+
+</html>
